@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML List</title>
+    <!-- Bootstrap -->
+    <link href="RESOURCE/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<table class="table table-bordered table-striped" border="1" cellpadding="10" bgcolor="#add8e6" align="center">
+    <h3 align="center">BookTitle-list</h3>
+    <thead>
+    <tr>
+        <th>Serial</th>
+        <th>ID</th>
+        <th>Book Title</th>
+        <th>Author Name</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>1</td>
+        <td>5</td>
+        <td>PHP-Book Title#1</td>
+        <td>Humayun Ahmed</td>
+        <td>&nbsp;&nbsp;<input class="btn btn-success" type="button" value="View">&nbsp;&nbsp;<input class="btn btn-primary" type="button" value="Edit">
+            &nbsp;&nbsp;<input class="btn btn-danger" type="button" value="Delete">&nbsp;&nbsp;<input class="btn btn-warning" type="button" value="Trash">
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>6</td>
+        <td>PHP-Book Title#2</td>
+        <td>Abir Khan</td>
+        <td>&nbsp;&nbsp;<input class="btn btn-success" type="button" value="View">&nbsp;&nbsp;<input class="btn btn-primary" type="button" value="Edit">
+            &nbsp;&nbsp;<input class="btn btn-danger" type="button" value="Delete">&nbsp;&nbsp;<input class="btn btn-warning" type="button" value="Trash">
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>7</td>
+        <td>PHP-Book Title#3</td>
+        <td>Tushar Ahmed</td>
+        <td>&nbsp;&nbsp;<input class="btn btn-success" type="button" value="View">&nbsp;&nbsp;<input class="btn btn-primary" type="button" value="Edit">
+            &nbsp;&nbsp;<input class="btn btn-danger" type="button" value="Delete">&nbsp;&nbsp;<input class="btn btn-warning" type="button" value="Trash">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li class="disabled"><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+
+
+        </td>
+
+    </tr>
+    <tr>
+        <td colspan="5"><input class="btn btn-block" type="button" value="Add New Book Title">&nbsp;&nbsp;
+            <input class="btn btn-warning" type="button" value="View Trash Items"> &nbsp;&nbsp;
+            <input class="btn btn-default" type="button" value="Download as PDF">&nbsp;&nbsp;
+            <input class="btn btn-block" type="button" value="Download as EXCEL File">
+        </td>
+
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
